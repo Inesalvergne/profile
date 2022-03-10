@@ -1,0 +1,119 @@
+body{
+  background-color: #D1E6E4;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+h1, h2{
+  font-family: CircularStd-Black;
+}
+
+p {
+  font-family: CircularStd-Book;
+  font-size: 18px;
+}
+
+a {
+  font-family: CircularStd-Book;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+
+.text-center{
+  text-align: center;
+}
+
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card{
+  text-align: center;
+  background: white;
+  padding: 40px;
+  margin: 20px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+
+.btn-green{
+  background: #17c3b2;
+  color: white;
+  font-size: 20px;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-green:hover{
+  background-color: #0c8b7f;
+}
+
+#introduction-p{
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+
+.fab{
+  color: #17c3b2;
+  size: 100px;
+}
+
+.fab:hover{
+  color: #0c8b7f;
+}
+
+.photos-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+
+.magic-background{
+  display: inline-flex;
+  background-image: linear-gradient(120deg, rgba(80,192,164,100) 0%, rgba(142,226,181,100) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.3em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+
+
+.magic-background:hover{
+  background-size: 100% 88%;
+  background-image: linear-gradient(120deg, rgba(80,192,164,100) 0%, rgba(142,226,181,100) 100%) ;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
